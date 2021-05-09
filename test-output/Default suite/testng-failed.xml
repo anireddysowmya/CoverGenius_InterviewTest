@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Planit.testCases.jupiterTest">
+      <class name="xcover.testCase.getQuote">
         <methods>
-          <include name="driver"/>
-          <include name="test_case4"/>
+          <include name="getQuoteForEyeWearProtectionPeriod"/>
+          <include name="test_driver"/>
         </methods>
-      </class> <!-- Planit.testCases.jupiterTest -->
+      </class> <!-- xcover.testCase.getQuote -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,10 +7,8 @@ import org.openqa.selenium.WebElement;
 public class homePage {
 	public WebDriver driver;
 	
-	public By contactPage= By.linkText("Contact");
-	public By homepg= By.linkText("Home");
-	public By shoppge= By.linkText("Shop");
 	
+By quoteBtn= By.id("nav-get-quote-button");
 	
 	
 
@@ -21,25 +19,12 @@ public class homePage {
 		
 	}
 
-public WebElement contactPage() {
-	
-	WebElement contact= driver.findElement(contactPage);
-	contact.click();
-	return contact;
-}
-	
-public WebElement home() {
-	
-	WebElement home= driver.findElement(homepg);
-	home.click();
-	return home;
-}
+public WebElement quote() {
 
-public WebElement shop() {
-	
-	WebElement page= driver.findElement(shoppge);
-	page.click();
-	return page;
+	WebElement ele= driver.findElement(quoteBtn);
+	ele.click();
+	return ele;
+
 }
 
 

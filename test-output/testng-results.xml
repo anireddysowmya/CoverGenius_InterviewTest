@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="225949" started-at="2021-05-07T01:07:00 AEST" finished-at="2021-05-07T01:10:46 AEST">
+  <suite name="Suite" duration-ms="15556" started-at="2021-05-09T23:34:16 AEST" finished-at="2021-05-09T23:34:32 AEST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="225949" started-at="2021-05-07T01:07:00 AEST" finished-at="2021-05-07T01:10:46 AEST">
-      <class name="Planit.testCases.jupiterTest">
-        <test-method status="PASS" signature="driver()[pri:0, instance:Planit.testCases.jupiterTest@9660f4e]" name="driver" is-config="true" duration-ms="3266" started-at="2021-05-07T01:07:00 AEST" finished-at="2021-05-07T01:07:03 AEST">
+    <test name="Test" duration-ms="15556" started-at="2021-05-09T23:34:16 AEST" finished-at="2021-05-09T23:34:32 AEST">
+      <class name="xcover.testCase.getQuote">
+        <test-method status="PASS" signature="test_driver()[pri:0, instance:xcover.testCase.getQuote@9660f4e]" name="test_driver" is-config="true" duration-ms="2379" started-at="2021-05-09T23:34:16 AEST" finished-at="2021-05-09T23:34:19 AEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driver -->
-        <test-method status="PASS" signature="test_Case1()[pri:1, instance:Planit.testCases.jupiterTest@9660f4e]" name="test_Case1" duration-ms="183982" started-at="2021-05-07T01:07:03 AEST" finished-at="2021-05-07T01:10:07 AEST">
+        </test-method> <!-- test_driver -->
+        <test-method status="PASS" signature="navigate()[pri:1, instance:xcover.testCase.getQuote@9660f4e]" name="navigate" duration-ms="3715" started-at="2021-05-09T23:34:19 AEST" finished-at="2021-05-09T23:34:22 AEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Case1 -->
-        <test-method status="PASS" signature="test_Case2()[pri:2, instance:Planit.testCases.jupiterTest@9660f4e]" name="test_Case2" duration-ms="34363" started-at="2021-05-07T01:10:07 AEST" finished-at="2021-05-07T01:10:41 AEST">
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="getQuoteForEyeWearProtectionPeriod()[pri:2, instance:xcover.testCase.getQuote@9660f4e]" name="getQuoteForEyeWearProtectionPeriod" duration-ms="9415" started-at="2021-05-09T23:34:22 AEST" finished-at="2021-05-09T23:34:32 AEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Case2 -->
-        <test-method status="PASS" signature="test_case3()[pri:3, instance:Planit.testCases.jupiterTest@9660f4e]" name="test_case3" duration-ms="2728" started-at="2021-05-07T01:10:41 AEST" finished-at="2021-05-07T01:10:44 AEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_case3 -->
-        <test-method status="PASS" signature="test_case4()[pri:4, instance:Planit.testCases.jupiterTest@9660f4e]" name="test_case4" duration-ms="1537" started-at="2021-05-07T01:10:44 AEST" finished-at="2021-05-07T01:10:46 AEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_case4 -->
-      </class> <!-- Planit.testCases.jupiterTest -->
+        </test-method> <!-- getQuoteForEyeWearProtectionPeriod -->
+      </class> <!-- xcover.testCase.getQuote -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
